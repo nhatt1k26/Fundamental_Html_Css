@@ -1,0 +1,132 @@
+/* selector{
+    property
+} */
+
+/* Selectors::after
+tags: p,div, h1,main,a,span
+Class: .demo, .header
+ID: # container, #footer */
+
+/* 
+Properties: color, background-color
+Value: red, orange, yellow 
+color: rgb,rgba
+*/
+
+*{
+    box-sizing: border-box;
+}
+p{
+    color: rgb(27, 20, 20)
+}
+
+.background{
+    /*  background-color: bgc */
+    background-color: bisque; 
+    min-width: 100px;
+    max-width: 50%;
+    height: 100px;
+    
+    overflow-x: hidden;
+}
+
+.background2{
+    width: 100%;
+    height: 100vh;
+    /* width: 100%;
+    height: 1000px; */
+    background-image: url("https://plus.unsplash.com/premium_photo-1680100256024-3266fa32a8d0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") 
+/* 
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+}
+
+.wrap{
+    width : 600px
+}
+
+.em{
+    width : 10em;
+    height: 10em;
+    background-color:rgb(241, 241, 241);
+    font-size : 32px;
+}
+
+.rem{
+    width : 10rem;
+    height: 10rem;
+    background-color:rgb(206, 74, 74);
+    font-size: 32px;
+    border: 2px solid yellow
+}
+
+
+.margin{
+    width: 14rem;
+    height: 14rem;
+    background-color: red;
+    margin: 10px 20px 30px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-top: 10px
+}
+
+.boxed{
+    width: 1rem;
+    height: 1rem;
+    border: 5px solid black;
+    padding: 1rem;
+    background-color: orange;
+    box-sizing: border-box;
+}
+/* 
+a{
+    color: white;
+    text-decoration: none;
+    width: 20rem;
+    height: 15rem;
+    padding: 1rem;
+    background-color: black;
+    display: inline-block;
+    /* display: none */
+} */
+
+.font{
+    line-height: 1.5rem;
+        text-align: left;
+        text-align:center;
+        max-width: 10px;
+        letter-spacing: 0.1rem;
+        word-spacing: 0.1rem;
+     word-break: break-work;
+}
+
+
+.image{
+    width:20rem;
+    height: 20rem;
+    object-fit: cover;
+    object-position: left;
+    margin: 0 auto;
+    display:inline-block;
+    border-radius: 50%;
+}
+
+.Pseudo:hover{
+    color:orange;
+}
+
+.Pseudo:active{
+    color:purple;
+}
+
+.Pseudo:visited{
+    color: blue;
+}
+a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150px;
+}

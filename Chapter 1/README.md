@@ -33,4 +33,12 @@
  Custom tag
  ### Class and ID in div Tag
  Compare: class can be not unique,can use for custom atribute for multiple group, ID have to be unique, 
-
+ ### BEM
+ Block Element Modifier: you should 
+ ### Emmet 
+  Alt + arrow : Move line
+  Shift + Alt: Copy Line 
+ Ctr + D: choose multipe keyword
+ ul>li*10{item$} + Tab:
+ ul>li.item*10 + Tab:
+ h1+p+div > p.text + p.text2 ^.job : create multiple tag
