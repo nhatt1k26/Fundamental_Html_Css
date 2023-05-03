@@ -62,3 +62,59 @@ position: fixed:
 ## Before and after
 
 if content of before/after is blank, custom box is can be used in both of before and after
+
+Currentcolor: lấy màu theo màu chữ ở thuộc tính phía trước.
+
+With transition:
+
+.effect{
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    padding: 2rem;
+
+    text-align: center;
+
+    background-color: white;
+
+    border: 1pxsolidorange;
+
+    margin: 5rem;
+
+    transition: color0.25slinear;
+
+    position: relative;
+
+    z-index: 1;
+
+}
+
+.effect:before{
+
+    content:"";
+
+    height: 100%;
+
+    width: 0;
+
+    position: absolute;
+
+    top:0;
+
+    right:0;
+
+    background-color:  orange;
+
+    z-index: -1;
+
+    transition: width 0.25slinear;
+
+}
+
+.effect:hover:before{
+
+    width : 100%
+
+}

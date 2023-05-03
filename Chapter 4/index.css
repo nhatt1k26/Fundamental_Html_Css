@@ -56,3 +56,32 @@ body{
     position: relative;
     z-index:2;
 }
+
+
+.effect{
+    text-decoration: none;
+    display: inline-block;
+    padding: 2rem;
+    text-align: center;
+    background-color: white;
+    border: 1px solid orange;
+    margin: 5rem;
+    transition: color 0.25s linear;
+    position: relative;
+    z-index: 1;
+}
+
+.effect:before{
+    content:"";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top:0;
+    right:0;
+    background-color:  orange;
+    z-index: -1;
+    transition: width 0.25s linear;
+}
+.effect:hover:before{
+    width : 100%
+}
